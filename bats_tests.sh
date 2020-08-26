@@ -14,6 +14,11 @@ load 'testing/bats-file/load'
 # question! You certainly shouldn't spend more than a few minutes
 # on any of these sub-tasks.
 
+#Hoomz Damte
+#Division of Science and Mathematics
+#University of Minnesota, Morris
+#August 2020
+
 # This checks that there is a file called "count_successes.sh"
 # in this directory. If this fails, it's because you haven't
 # created the file, or you created it in the wrong place.
