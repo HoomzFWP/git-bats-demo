@@ -10,12 +10,12 @@
 # August 2020
 tar_file=$1
 
-scratch=`mktemp --directory`
+scratch=$(mktemp --directory)
 
 tar zxf $tar_file --directory $scratch
 
-numSuccesses=`grep -lr SUCCESS $scratch | wc -l`
-numFailures=`grep -lr FAILURE $scratch | wc -l`
+numSuccesses=$(grep -lr SUCCESS $scratch | wc -l)
+numFailures=$(grep -lr FAILURE $scratch | wc -l)
 
 tar zxf $tar_file --directory $scratch
 
